@@ -7,7 +7,7 @@ import 'package:intl/intl.dart';
 import 'package:todo/models/task.dart';
 
 import 'package:todo/services/theme_services.dart';
-// import 'package:todo/ui/pages/add_task_page.dart';
+import 'package:todo/ui/pages/add_task_page.dart';
 import 'package:todo/ui/widgets/button.dart';
 import 'package:todo/ui/widgets/task_tile.dart';
 
@@ -85,8 +85,8 @@ class _HomePageState extends State<HomePage> {
         MyButton(
             label: '+ Add Task',
             onTap: () {
-              //   Get.to(() => const AddTaskPage(),
-              //       transition: Transition.downToUp);
+              Get.to(() => const AddTaskPage(),
+                  transition: Transition.downToUp);
             })
       ],
     );
