@@ -97,14 +97,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.3"
-  dbus:
-    dependency: transitive
-    description:
-      name: dbus
-      sha256: "6f07cba3f7b3448d42d015bfd3d53fe12e5b36da2423f23838efc1d5fb31a263"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.7.8"
   fake_async:
     dependency: transitive
     description:
@@ -150,30 +142,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.1"
-  flutter_local_notifications:
-    dependency: "direct main"
-    description:
-      name: flutter_local_notifications
-      sha256: "138d5b8a67750f5cb5bc6357d37f092a32b0ba8ded64d91a9570b824c2d291f6"
-      url: "https://pub.dev"
-    source: hosted
-    version: "11.0.0"
-  flutter_local_notifications_linux:
-    dependency: transitive
-    description:
-      name: flutter_local_notifications_linux
-      sha256: "6af440e3962eeab8459602c309d7d4ab9e62f05d5cfe58195a28f846a0b5d523"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.0"
-  flutter_local_notifications_platform_interface:
-    dependency: transitive
-    description:
-      name: flutter_local_notifications_platform_interface
-      sha256: "5ec1feac5f7f7d9266759488bc5f76416152baba9aa1b26fe572246caa00d1ab"
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.0.0"
   flutter_native_timezone:
     dependency: "direct main"
     description:
@@ -509,14 +477,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.4.16"
-  timezone:
-    dependency: transitive
-    description:
-      name: timezone
-      sha256: "2e59efc48e9f684c327c0498ac0b81411aee18b10c82f2db2c08f7f052493569"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.9.0"
   typed_data:
     dependency: transitive
     description:
